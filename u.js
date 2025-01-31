@@ -1,5 +1,5 @@
 //  javascript for landing page
-  
+//https://github.com/PMaheshwarreddy/task1-land/blob/main/u.js#L18C1
 var countDownDate = new Date("Jun 5, 2022 15:37:25").getTime();
  //   var y= getInterval(function);
 var x = setInterval(function() {
@@ -15,7 +15,9 @@ var x = setInterval(function() {
  
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
- 
+//while(n<0){
+  //document.getElementById("demo").innerHTML="EXPRIED";
+//}
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
