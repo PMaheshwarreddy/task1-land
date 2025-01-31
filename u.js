@@ -1,7 +1,7 @@
-
+//  javascript for landing page
   
 var countDownDate = new Date("Jun 5, 2022 15:37:25").getTime();
- 
+ //   var y= getInterval(function);
 var x = setInterval(function() {
  
   var now = new Date().getTime();
